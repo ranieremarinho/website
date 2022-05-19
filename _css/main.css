@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* ESTA É UMA FOLHA DE ESTILO MERAMENTE COM FINS DE ESTUDOS.
-      BASEADA EM UM TEMPLATE EM HTML 4, TEREI DE ALTERÁ-LA 
-      PARA HTML 5, SERVINDO, PORTANTO, DE TREINAMENTO EM
+      BASEADA EM UM TEMPLATE DE SITE EM HTML 4, PRECISEI DE ALTERÁ-LA 
+      PARA CSS3, SERVINDO, PORTANTO, DE TREINAMENTO EM
       MANUTENÇÃO DE PÁGINAS, BEM COMO, DO USO DO GITHUB */
 
 body {
@@ -30,7 +30,16 @@ div#areabanner{
 img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+}
+
+img.screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}    
 
 div#interface{
 	width: 780px;
