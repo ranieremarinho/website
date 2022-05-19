@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* ESTA É UMA FOLHA DE ESTILO MERAMENTE COM FINS DE ESTUDOS.
+      BASEADA EM UM TEMPLATE EM HTML 4, TEREI DE ALTERÁ-LA 
+      PARA HTML 5, SERVINDO, PORTANTO, DE TREINAMENTO EM
+      MANUTENÇÃO DE PÁGINAS, BEM COMO, DO USO DO GITHUB */
+
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	background-color: #AFD8F6;
+	scrollbar-3d-light-color:#ffffff;
+           scrollbar-arrow-color:#cccccc;
+           scrollbar-base-color:#ffffff;
+           scrollbar-dark-shadow-color:#ffffff;
+           scrollbar-face-color:#F5F5F5;
+           scrollbar-highlight-color:#ffffff;
+           scrollbar-shadow-color:grey;}
+
+div#areamenu{
+	background-color: #0A7ADE;
+	margin: 0px auto 0px auto; /* cima direita baixo esquerda */
+}  
+
+div#areabanner{
+	background-color: #0A7ADE;
+	margin: -10px auto 0px auto; /* cima direita baixo esquerda */
+}  
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+div#interface{
+	width: 780px;
+	background-color: #ffffff;
+	margin: 0px auto 20px auto; /* cima direita baixo esquerda */
+}                     
+
+/* Formatação do menu */
+
+nav#menu{ 
+	display: block; /* faz o menu flutuar */
+}
+
+nav#menu ul{
+	list-style: none; /* oculta os marcadores */
+	text-transform: uppercase;
+	position: absolute; /* faz o menu flutuar - Se fosse relativa, ficaria preso no container */
+	top: -20px;
+	right: 50px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #0A7ADE;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s; /* torna gradativa a mudança na cor do fundo do menu no hover */
+}
+
+nav#menu li:hover{
+	background-color: #0A00FF; /* muda a cor do fundo do menu quado passa o mouse */
+}
+
+nav#menu h1{
+	display: none; /* oculta o texto "Menu Principal" */
+}
+
+nav#menu a{
+	color: #FFFFFF;
+	text-decoration: none; /* retira underline do link */
+}
+
+nav#menu a:hover{
+	color: #FFF200; /* muda cor da fonte no hover */
+	text-decoration: underline; /* underline no hover*/
+}
+
+h1 {
+	margin:0px 10px 0px 0px; /* cima direita baixo esquerda */
+	color:#ffffff;
+	font:22px Geneva, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	padding:0px;
+	}
+h2 {
+	margin:10px auto 10px 20px; /* cima direita baixo esquerda */
+	color:#AFD8F6; /* #1F8AEA; */
+	font:22px Times, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	padding:0px;
+	}
+h3 {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:24px Geneva, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	color:#666666;
+	}
+h4 {
+	margin:10px 10px 10px 10px;
+	color:#000000;
+	font:18px Times, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	padding:0px;
+	}
+
+p.titulo {
+	margin: 0px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 18px; 
+	font-weight: bold; 
+	color: #223695;
+	}
+p.topico {
+	margin: 15px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; font-weight: bold; 
+	color: #6B97BC;
+}
+p.textcorpo {
+	margin: 10px 10px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #6B97BC;
+}
