@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8"/>
+   <title>Raniere Marinho</title>
+   <link rel ="stylesheet" type="text/css" href="_css/mobilmain.css"/>
+</head>
+
+<! -- VERSÃO MOBILE -->
+
+<body>
+
+  <div id="areamenu">
+    <header>
+      <hgroup>
+        <h1>&nbsp;Raniere Marinho</h1>
+        <h2>Soluções e Otimizações&nbsp;&nbsp;</h2>
+      </hgroup>
+    </header> 
+  </div>
+
+  <div id="interface"> <! -- esta div é um container de todo conteúdo da parte inferior página -->
+    <nav id="menu">
+      <h1>Menu Principal</h1> <! -- o css oculta esse texto -->
+      <ul>
+        <li><a href="mindex.html">Início</a></li>
+        <li><a href="mmeustrab.html">Meus Trabalhos</a></li>
+        <li><a href="mcontato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <br/>
+
+    <p class="titulo">Meus Trabalhos</p> <br/>
+
+    <nav id="menutrab">
+      <h1>Menu Programas</h1> <! -- o css oculta esse texto -->
+      <ul>
+        <li><a href="minfob.html">Infobasic</a></li>
+        <li><a href="mipl.html">IguaisProLixo</a></li>
+        <li><a href="mtemexif.html">TemExif</a></li>
+        <li><a href="mepn.html">ExifPraNome</a></li>
+        <li><a href="mohm.html">Ohmímetro</a></li>
+        <li><a href="mduplic.html">Duplicatas</a></li>
+      </ul>
+    </nav>
+
+    <br/>
+
+    <p class="titulo">IguaisProLixo</p> 
+
+    <p class="topico">Pacote com diversos programas de análise de similaridade em fotografias</p>
+
+    <p class="textcorpo">Verifica por comparação se fotografias são iguais e exclui as duplicidades. Possui controle de similaridade pelas imagens das fotos, compara tamanho em bytes, nomes, localização relativa, etc. <br>
+          Diferente dos demais, o Igualador compara duas pastas e, se os conteúdos forem diferentes, torna-os iguais, copiando os arquivos para as pastas nas quais estejam ausentes, com objetivo de manter originais e backups atualizados.<br/>
+          Na verificação de similaridade de imagens, são avaliados de 100 até 5000 pontos da imagem, de acordo com a configuração escolhida pelo usuário.<br><br>
+          Programas no pacote:<br><br>
+          BuscaFotosIguais 1pstSubs; <br>
+          BuscaFotosIguais pst; <br>
+          BuscaFotosIguais pstSub; <br>
+          BuscaFotosIguais 1pst MultiSub; <br>
+          BuscaFotosIguais MultiSub 1pst; <br>
+          LimpaTudo pst; <br>
+          LimpaTudo 1pst MultiSub; <br>
+          LimpaTudo CS; <br>
+          Igualador.</p>
+
+    <figure>
+          <img class="screenshot" src="_imgs/mipl.jpg"/>
+    </figure>
+    <figure>
+          <img class="screenshot" src="_imgs/mipl2.jpg"/>
+    </figure>
+    <figure>
+          <img class="screenshot" src="_imgs/mipl3.jpg"/>
+    </figure>
+    <figure>
+          <img class="screenshot" src="_imgs/mipl4.jpg"/>
+    </figure>
+    <figure>
+          <img class="screenshot" src="_imgs/mipl5.jpg"/>
+    </figure>        
+    <br>
+
+    <p class="titulo">Descrição dos programas do pacote</p> 
+
+    <p class="nomeprog">BuscaFotosIguais 1pstSubs</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carrega todas imagens de uma pasta e suas pastas;</li>
+        <li>Os arquivos a serem analisados poderão estar todos numa única pasta ou em sub-pastas de uma única pasta;</li>
+        <li>Verifica individualmente as imagens, buscando outras com exato tamanho em bytes; </li>
+        <li>Se encontrar com exato tamanho, independente de nome de arquivo, verifica se são similares;</li>
+        <li>Confirmando-se pelos critérios acima a similaridade das imagens, exclui-se uma delas de forma aleatória, ou seja, o usuário não poderá escolher de qual das pastas haverá a exclusão.</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfi1pstsubs.jpg"/>
+          <figcaption class="legendamobile">BuscaFotosIguais 1pstSubs</figcaption>
+    </figure> 
+
+    <p class="nomeprog">BuscaFotosIguais pst</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Os arquivos que não serão excluídos deverão ser carregados na Lista A (não verifica sub-pastas) e os que serão excluídos deverão ser carregados na Lista B (também não setão verificadas sub-pastas);</li>
+        <li>Analisa todos arquivos da Pasta A, verificando na Pasta B se existe arquivos homônimos;</li>
+        <li>Se achado na Pasta B um arquivo homônimo do analisado em A, verifica as imagens, se têm exatos tamanhos em bytes e se são similares;</li>
+        <li>Confirmando-se pelos critérios acima a similaridade das imagens, exclui-se da pasta determinada pelo usuário (Pasta B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfipst.jpg"/>
+          <figcaption class="legendamobile">BuscaFotosIguais pst</figcaption>
+    </figure> 
+
+    <p class="nomeprog">BuscaFotosIguais pstSub</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carrega todas imagens de uma pasta e suas sub-pastas na Lista A;</li>
+        <li>Carrega-se a Lista B com a pasta e sub-pastas cujas imagens serão passíveis de exclusão;</li>
+        <li>Analisa todos arquivos da Lista A, verificando nas pastas da Lista B se existem arquivos homônimos;</li>
+        <li>Se achado nas pastas da Lista B um arquivo homônimo do analisado em A, verifica as imagens, se têm exatos tamanhos em bytes e se são similares;</li>
+        <li>Confirmando-se pelos critérios acima a similaridade das imagens, exclui-se da pasta determinada pelo usuário (Pasta B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfipstSub.jpg"/>
+          <figcaption class="legendamobile">BuscaFotosIguais pstSub</figcaption>
+    </figure> 
+
+    <p class="nomeprog">BuscaFotosIguais 1pst MultiSub</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carrega todas imagens de uma pasta  (sem suas sub-pastas) (Lista A);</li>
+        <li>Carrega na lista B a pasta indicada com suas sub-pastas;</li>
+        <li>Busca-se nas pastas B arquivos homônimos dos arquivos da pasta A;</li>
+        <li>Se achado na Pasta B ou alguma de suas sub-pastas um arquivo homônimo do analisado em A, verifica as imagens, se têm exatos tamanhos em bytes e se são similares;</li>
+        <li>Confirmando-se pelos critérios acima a similaridade das imagens, exclui-se da pasta determinada pelo usuário (Pasta B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfi1pstmultisub.jpg"/>
+          <figcaption class="legendamobile">BuscaFotosIguais 1pst MultiSub</figcaption>
+    </figure> 
+
+    <p class="nomeprog">BuscaFotosIguais MultiSub 1pst</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carrega na lista A todas pastas e respectivas sub-pastas;</li>
+        <li>Carrega todas imagens de uma pasta  (sem suas sub-pastas) (Lista B);</li>
+        <li>Busca-se nas pastas A arquivos homônimos dos arquivos da pasta B;</li>
+        <li>Se achado na Pasta A ou alguma de suas sub-pastas um arquivo homônimo do analisado em B, verifica as imagens, se têm exatos tamanhos em bytes e se são similares;</li>
+        <li>Confirmando-se pelos critérios acima a similaridade das imagens, exclui-se da pasta determinada pelo usuário (Pasta B). </li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfimultisub1pst.jpg"/>
+          <figcaption class="legendamobile">BuscaFotosIguais MultiSub 1pst</figcaption>
+    </figure> 
+
+    <p class="nomeprog">LimpaTudo pst</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Os arquivos que não serão excluídos deverão ser carregados na Lista A (não verifica sub-pastas) e os que serão excluídos deverão ser carregados na Lista B (também não setão verificadas sub-pastas);</li>
+        <li>Analisa todos arquivos da Pasta A, verificando na Pasta B se existe arquivos homônimos;</li>
+        <li>Se achado na Pasta B um arquivo homônimo do analisado em A, verifica se têm exatos tamanhos em bytes;</li>
+        <li>Se o arquivo for imagem, estando marcada a caixa de checagem "Verificar similaridade em imagens", esta verificação será efetuada;</li>
+        <li>Confirmando-se pelos critérios acima, exclui-se da pasta determinada pelo usuário (Pasta B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfiltpst.jpg"/>
+          <figcaption class="legendamobile">LimpaTudo pst</figcaption>
+    </figure>
+
+    <p class="nomeprog">LimpaTudo 1pst MultiSub</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carrega todos arquivos de uma pasta  (sem suas sub-pastas) (Lista A);</li>
+        <li>Carrega na lista B a pasta indicada com suas respectivas sub-pastas;</li>
+        <li>Busca-se nas pastas da lista B arquivos homônimos dos arquivos da Lista A;</li>
+        <li>Se achado na Pasta B ou alguma de suas sub-pastas um arquivo homônimo do analisado em A, verifica-se se têm exatos tamanhos em bytes;</li>
+        <li>Se forem imagens e a caixa de checagem "Verificar similaridade em imagens" estiver marcada, será realizada tal verificação;</li>
+        <li>Confirmando-se pelos critérios acima, exclui-se da pasta determinada pelo usuário (Pasta B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfilt1pstmultisub.jpg"/>
+          <figcaption class="legendamobile">LimpaTudo 1pst MultiSub</figcaption>
+    </figure> 
+
+    <p class="nomeprog">LimpaTudo CS</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Carregue a pasta ou unidade de referência (A) que contém os arquivos originais;</li>
+        <li>Indique a unidade com as cópias de segurança (B);</li>
+        <li>Se em B existir um arquivo com mesmo nome e endereço relativo, será analisado tamanho e, se for imagem, estando marcada a caixa de checagem "Verificar similaridade em imagens", esta será efetuada;</li>
+        <li>Confirmando-se pelos critérios acima, exclui-se da cópia de segurança (B).</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfiltcs.jpg"/>
+          <figcaption class="legendamobile">LimpaTudo CS</figcaption>
+    </figure> 
+
+    <p class="nomeprog">Igualador</p>
+
+    <nav id="caracteristicas">
+      <ol>
+        <li>Uma vez carregada a pasta ou unidade de origem (A) e indicada a pasta ou unidade de destino (B), o programa copiará para B todas pastas e arquivos que estiverem presentes em A e inexistentes em B;</li>
+        <li>Se em B já existir um arquivo com mesmo nome e endereço relativo, mesmo se for em outra versão ou tamanho, não será alterado ou excluído.</li>
+      </ol>
+    </nav>
+
+    <figure>
+          <img class="progs" src="_imgs/bfiigualador.jpg"/>
+          <figcaption class="legendamobile">Igualador</figcaption>
+    </figure> 
+
+    <br/><br/>
+  </div>
+</body>
+</html>

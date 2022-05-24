@@ -6,12 +6,39 @@
    <link rel ="stylesheet" type="text/css" href="_css/main.css"/>
 </head>
 
-<! -- ESTA É UMA PÁGINA MERAMENTE COM FINS DE ESTUDOS.
-      BASEADA EM UM TEMPLATE EM HTML 4, PRECISEI ALTERÁ-LA 
-      PARA HTML 5, SERVINDO, PORTANTO, DE TREINAMENTO EM
-      MANUTENÇÃO DE PÁGINAS, BEM COMO, DO USO DO GITHUB -->
+<body>
 
-<body>  
+  <script type = "text/javascript" >
+    var userAgent = navigator.userAgent.toLowerCase();
+    var devices = new Array('android', 'blackberry', 'elaine', 'htc_tattoo', 'iphone', 'lg', 'mobilexplorer', 
+      'netfront', 'nokia', 'obigo', 'openwave', 'operamini', 'palm', 'samsung', 'series60', 'sony', 'symbian', 
+      'SymbianOS', 'windows ce');
+    var mindex = 'mindex.html';
+    var mpindex = 'mpindex.html';
+
+    function ehMobile(userAgent, devices) {
+      for (var i = 0; i < devices.length; i++) 
+        {
+          if (userAgent.search(devices[i]) > 0) 
+            {
+              return true;
+            }
+        }
+      return false;
+    }
+
+    if (ehMobile(userAgent, devices)) 
+      {
+        if(window.screen.width>320) 
+          {
+            window.location.href = mindex;
+          }
+        else
+          {
+            window.location.href = mpindex;
+          }
+      } 
+  </script>
 
   <div id="areamenu">
     <header>
@@ -31,12 +58,7 @@
       <h1>Menu Principal</h1> <! -- o css oculta esse texto -->
       <ul>
         <li><a href="index.html">Início</a></li>
-        <li><a href="infob.html">Infobasic</a></li>
-        <li><a href="ipl.html">IguaisProLixo</a></li>
-        <li><a href="temexif.html">TemExif</a></li>
-        <li><a href="epn.html">ExifPraNome</a></li>
-        <li><a href="ohm.html">Ohmímetro</a></li>
-        <li><a href="duplic.html">Duplicatas</a></li>
+        <li><a href="meustrab.html">Meus Trabalhos</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
@@ -56,7 +78,7 @@
 
     <p class="topico">O que tenho aprontado?</p>
 
-    <p class="textcorpo">No menu acima, páginas com screenshots de alguns programas que desenvolvi em Delphi e em Visual Basic.</p>
+    <p class="textcorpo">Conheça um pouco dos <a href="meustrab.html">meus trabalhos</a> em páginas com screenshots de alguns programas que desenvolvi em Delphi e em Visual Basic.</p>
 
     <p class="topico">Em que me concentro hoje?</p>
     <p class="textcorpo">Estudo linguagens mais modernas com seus novos paradigmas da programação, que constroem sistemas mobiles e para web.</p>

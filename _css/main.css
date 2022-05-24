@@ -1,21 +1,18 @@
 @charset "UTF-8";
 
-/* ESTA É UMA FOLHA DE ESTILO MERAMENTE COM FINS DE ESTUDOS.
-      BASEADA EM UM TEMPLATE DE SITE EM HTML 4, PRECISEI DE ALTERÁ-LA 
-      PARA CSS3, SERVINDO, PORTANTO, DE TREINAMENTO EM
-      MANUTENÇÃO DE PÁGINAS, BEM COMO, DO USO DO GITHUB */
+/* VERSÃO DESKTOP */
 
 body {
 	margin:0px 0px 0px 0px;
 	padding:0px;
 	background-color: #AFD8F6;
 	scrollbar-3d-light-color:#ffffff;
-           scrollbar-arrow-color:#cccccc;
-           scrollbar-base-color:#ffffff;
-           scrollbar-dark-shadow-color:#ffffff;
-           scrollbar-face-color:#F5F5F5;
-           scrollbar-highlight-color:#ffffff;
-           scrollbar-shadow-color:grey;}
+    scrollbar-arrow-color:#cccccc;
+    scrollbar-base-color:#ffffff;
+    scrollbar-dark-shadow-color:#ffffff;
+    scrollbar-face-color:#F5F5F5;
+    scrollbar-highlight-color:#ffffff;
+    scrollbar-shadow-color:grey;}
 
 div#areamenu{
 	background-color: #0A7ADE;
@@ -40,6 +37,19 @@ img.screenshot {
     margin-top: 30px;
     margin-bottom: 50px;
 }    
+
+img.progs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}   
+
+figcaption.legendadesktop{
+	text-align: center;
+	color: #767676;
+}
 
 div#interface{
 	width: 780px;
@@ -87,6 +97,71 @@ nav#menu a:hover{
 	text-decoration: underline; /* underline no hover*/
 }
 
+nav#caracteristicas ul{
+	list-style: decimal;
+}
+
+nav#caracteristicas li{
+	display: list-item;
+	/*background-color: #0A7ADE;*/
+	padding: 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+
+	/* margin: 10px 10px 5px 15px; cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #6B97BC;	
+}
+
+
+nav#menutrab{ 
+	/* display: block;*/ /* faz o menutrab flutuar */
+}
+
+nav#menutrab ul{
+	list-style: none; /* oculta os marcadores */
+	text-transform: uppercase;
+	position: relative; /* faz o menutrab NÃO flutuar -  fica preso no container */
+	top: -20px;
+	right: 20px;
+}
+
+nav#menutrab li{
+	display: list-item;
+	background-color: #0A7ADE;
+	padding: 2px; /* era 10 */
+	font-size: 18px;
+	margin-top: 2px;
+	/*margin-right: 2px;*/
+	margin-left: 2px;
+	margin-bottom: 2px;
+	/*margin: 2px;*/
+	transition: background-color 1s; /* torna gradativa a mudança na cor do fundo do menutrab no hover */
+	width: 250px;
+}
+
+nav#menutrab li:hover{
+	background-color: #0A00FF; /* muda a cor do fundo do menutrab quado passa o mouse */
+}
+
+nav#menutrab h1{
+	display: none; /* oculta o texto "menutrab Principal" */
+}
+
+nav#menutrab a{
+	color: #FFFFFF;
+	text-decoration: none; /* retira underline do link */
+}
+
+nav#menutrab a:hover{
+	color: #FFF200; /* muda cor da fonte no hover */
+	text-decoration: underline; /* underline no hover*/
+}
+
 h1 {
 	margin:0px 10px 0px 0px; /* cima direita baixo esquerda */
 	color:#ffffff;
@@ -124,7 +199,7 @@ p.titulo {
 	color: #223695;
 	}
 p.topico {
-	margin: 15px 0px 5px 15px; /* cima direita baixo esquerda */
+	margin: 5px 0px 5px 15px; /* cima direita baixo esquerda */
 	font-family: Verdana, Arial, Helvetica, sans-serif; 
 	font-size: 16px; font-weight: bold; 
 	color: #6B97BC;
@@ -133,5 +208,17 @@ p.textcorpo {
 	margin: 10px 10px 5px 15px; /* cima direita baixo esquerda */
 	font-family: Verdana, Arial, Helvetica, sans-serif; 
 	font-size: 14px; 
+	color: #6B97BC;
+}
+p.nomeprog {
+	margin: 40px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; font-weight: bold; 
+	color: #6B97BC;
+}
+p.voltar {
+	margin: 0px 0px 3px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px;
 	color: #6B97BC;
 }

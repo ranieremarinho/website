@@ -1,4 +1,4 @@
 # website
  Meu site pessoal
 
- Site criado a partir de um template em HTML 4. Atualizarei ele para HTML 5, corrigindo falhas e tornando mais agradável sua visualização em desktop e em mobiles.
+ Por meio de JavaScript, ocorre redirecionamento para um dos três sites construídos em HTML 5 e CSS 3. Um para ser carregado em desktop, outro para dispositivos móveis de telas grandes e outro para os de telas menores.

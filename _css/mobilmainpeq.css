@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+/* VERSÃO MOBILE TELA PEQUENA */
+
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	background-color: #AFD8F6;
+	scrollbar-3d-light-color:#ffffff;
+    scrollbar-arrow-color:#cccccc;
+    scrollbar-base-color:#ffffff;
+    scrollbar-dark-shadow-color:#ffffff;
+    scrollbar-face-color:#F5F5F5;
+    scrollbar-highlight-color:#ffffff;
+    scrollbar-shadow-color:grey;}
+
+div#areamenu{
+	background-color: #0A7ADE;
+	margin: 0px auto 0px auto; /* cima direita baixo esquerda */
+	height: 80px;
+}  
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+img.screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}    
+
+
+img.progs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+
+figcaption.legendamobile{
+	text-align: center;
+	color: #767676;
+	font-size: 10px;
+}
+
+div#interface{
+	/*width: 780px;*/
+	background-color: #ffffff;
+	margin: 0px 20px 20px 20px; /* cima direita baixo esquerda */
+}                     
+
+/* Formatação do menu */
+
+nav#menu{ 
+	display: block; /* faz o menu flutuar */
+}
+
+nav#menu ul{
+	list-style: none; /* oculta os marcadores */
+	text-transform: uppercase;
+	position: absolute; /* faz o menu flutuar - Se fosse relativa, ficaria preso no container */
+	top: -20px;
+	right: 20px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #0A7ADE;
+	padding: 4px; /* era 10 */
+	font-size: 22px; /* era 26 */
+	margin-top: 22px; /* era 10 */
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	/*margin: 2px;*/
+	transition: background-color 1s; /* torna gradativa a mudança na cor do fundo do menu no hover */
+}
+
+nav#menu li:hover{
+	background-color: #0A00FF; /* muda a cor do fundo do menu quado passa o mouse */
+}
+
+nav#menu h1{
+	display: none; /* oculta o texto "Menu Principal" */
+}
+
+nav#menu a{
+	color: #FFFFFF;
+	text-decoration: none; /* retira underline do link */
+}
+
+nav#menu a:hover{
+	color: #FFF200; /* muda cor da fonte no hover */
+	text-decoration: underline; /* underline no hover*/
+}
+
+nav#menutrab{ 
+	/* display: block;*/ /* faz o menutrab flutuar */
+}
+
+nav#menutrab ul{
+	list-style: none; /* oculta os marcadores */
+	text-transform: uppercase;
+	position: relative; /* faz o menutrab NÃO flutuar -  fica preso no container */
+	top: -20px;
+	right: 20px;
+}
+
+nav#menutrab li{
+	display: list-item;
+	background-color: #0A7ADE;
+	padding: 4px; /* era 10 */
+	font-size: 26px;
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	/*margin: 2px;*/
+	transition: background-color 1s; /* torna gradativa a mudança na cor do fundo do menutrab no hover */
+}
+
+nav#menutrab li:hover{
+	background-color: #0A00FF; /* muda a cor do fundo do menutrab quado passa o mouse */
+}
+
+nav#menutrab h1{
+	display: none; /* oculta o texto "menutrab Principal" */
+}
+
+nav#menutrab a{
+	color: #FFFFFF;
+	text-decoration: none; /* retira underline do link */
+}
+
+nav#menutrab a:hover{
+	color: #FFF200; /* muda cor da fonte no hover */
+	text-decoration: underline; /* underline no hover*/
+}
+
+nav#caracteristicas ul{
+	list-style: decimal;
+}
+
+nav#caracteristicas li{
+	display: list-item;
+	/*background-color: #0A7ADE;*/
+	padding: 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/* margin: 10px 10px 5px 15px; cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #6B97BC;	
+}
+
+h1 {
+	margin:0px 10px 0px 0px; /* cima direita baixo esquerda */
+	color:#ffffff;
+	font:24px Geneva, Arial, Helvetica, sans-serif;/* era 20 */
+	font-weight:400;
+	padding:0px;
+	}
+h2 {
+	margin:10px auto 10px 0px; /* cima direita baixo esquerda */
+	color:#AFD8F6; /* #1F8AEA; */
+	font:18px Times, Arial, Helvetica, sans-serif;/* era 8 */
+	font-weight:400;
+	padding:0px;
+	text-align: left;/* era right */
+	}
+h3 {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:24px Geneva, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	color:#666666;
+	}
+h4 {
+	margin:10px 10px 10px 10px;
+	color:#000000;
+	font:18px Times, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	padding:0px;
+	}
+
+p.titulo {
+	margin: 0px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 30px; /* era 18 *//* era 22 */
+	font-weight: bold; 
+	color: #223695;
+	}
+p.topico {
+	margin: 15px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 26px; font-weight: bold;  /* era 16 */ /* era 24 */
+	color: #6B97BC;
+}
+p.textcorpo {
+	margin: 10px 10px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 24px;  /* era 14 *//* era 22 */
+	color: #6B97BC;
+}
+
+p.erro404 {
+	margin: 10px 10px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 196px; 
+	text-align: center;
+	color: #6B97BC;
+}
+p.nomeprog {
+	margin: 40px 0px 5px 15px; /* cima direita baixo esquerda */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; font-weight: bold; 
+	color: #6B97BC;
+}
